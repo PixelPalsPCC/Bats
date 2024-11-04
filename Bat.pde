@@ -17,8 +17,8 @@ class Bat {
     circle(x,y,50);
     fill(234,31,31);
     fill(255,0,0);
-    ellipse(114,40,4,4);
-    ellipse(130,40,4,4);
+    ellipse(x-6,y,4,4);
+    ellipse(x+10,y,4,4);
       
     stroke(7);
     fill(0);
